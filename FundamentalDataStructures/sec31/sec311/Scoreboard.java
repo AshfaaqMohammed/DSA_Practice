@@ -1,4 +1,4 @@
-package FundamentalDataStructures.sec31;
+package FundamentalDataStructures.sec31.sec311;
 
 public class Scoreboard {
     private int numEntries = 0;
