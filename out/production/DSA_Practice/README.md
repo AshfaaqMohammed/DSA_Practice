@@ -7,3 +7,7 @@
 ##### End of the day i completed till 3.1.3
 
 ### 29-01-26
+- done with section caserCipher
+- done with multi dimensional arrays
+- done with singlyLinkedList
+#### End of the day i complted till 3.2
