@@ -10,4 +10,9 @@
 - done with section caserCipher
 - done with multi dimensional arrays
 - done with singlyLinkedList
-#### End of the day i complted till 3.2
+#### End of the day i completed till 3.2
+
+### 30-01-26
+- done with circular linkedlist
+- done with doubly linkedlist
+#### End of the day, i completed till 3.5
