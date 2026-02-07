@@ -16,3 +16,7 @@
 - done with circular linkedlist
 - done with doubly linkedlist
 #### End of the day, i completed till 3.5
+
+### 02-02-26
+- done with B(0) notation
+### End of the day, i completed 4.3.2
