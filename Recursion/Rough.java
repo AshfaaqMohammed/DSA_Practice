@@ -1,37 +1,20 @@
 package Recursion;
 
+import java.util.Arrays;
+
 public class Rough {
     public static void main(String[] args) {
-        drawRuler(1,4);
+        int[] array = {1,2,3,4,5,88};
+        reverse(array,0,array.length-1);
+        System.out.println(Arrays.toString(array));
     }
 
-    private static void drawRuler(int numInches, int maxLength){
-        drawLine(maxLength,0);
-        for (int i=1;i<=numInches;i++){
-            drawInterval(maxLength-1);
-            drawLine(maxLength,i);
+    private static void reverse(int[] array, int low, int high){
+        if (low < high){
+            int temp = array[low];
+            array[low] = array[high];
+            array[high] = temp;
+            reverse(array,low+1,high-1);
         }
-    }
-
-    private static void drawInterval(int centralLine){
-        if (centralLine >= 1){
-            drawInterval(centralLine-1);
-            drawLine(centralLine);
-            drawInterval(centralLine-1);
-        }
-    }
-
-    private static void drawLine(int maxLength,int tickLabel){
-        for (int i=0;i<maxLength;i++){
-            System.out.print("-");
-        }
-        if (tickLabel >= 0){
-            System.out.print(" "+tickLabel);
-        }
-        System.out.print("\n");
-    }
-
-    private static void drawLine(int tickLength){
-        drawLine(tickLength,-1);
     }
 }

@@ -3,3 +3,5 @@ Base definition is typical of many recursive definitions of funcitons -
     which refer to fixed values of the function.
     second, we have one or more recursive cases,
     which define the function in terms of itself.
+
+ i need to continuew from recursion run amok.

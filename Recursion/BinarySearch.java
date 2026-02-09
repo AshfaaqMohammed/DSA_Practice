@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] array = {1,2,3,4,5,6};
-        System.out.println(BSearch(array,5,0,array.length));
+        int[] array = {2,4,5,7,8,9,12,14,17,19,22,25,27,28,33,37};
+        System.out.println(BSearch(array,22,0,array.length));
     }
     public static int BSearch(int[] array,int ele,int l, int h){
         if (l > h){
