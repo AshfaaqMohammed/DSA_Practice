@@ -4,4 +4,6 @@ Base definition is typical of many recursive definitions of funcitons -
     second, we have one or more recursive cases,
     which define the function in terms of itself.
 
- i need to continuew from recursion run amok.
+recursion vs tail recursion -
+    recursion - A recursion is not tail recursion if after the recursive call returns, the function still has work to do.
+    tail recursion - A recursion is tail recursion if the recursive call is the very last thing the function does.
