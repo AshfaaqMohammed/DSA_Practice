@@ -1,7 +1,5 @@
-package NeetCode150;
+package NeetCode150.stacks;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 public class ValidParantheses {

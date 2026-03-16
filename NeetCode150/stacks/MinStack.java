@@ -1,4 +1,4 @@
-package NeetCode150;
+package NeetCode150.stacks;
 
 import java.util.Objects;
 import java.util.Stack;

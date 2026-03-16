@@ -22,15 +22,15 @@ public class Rough {
 //        long elapsed = endTime - startTime;
 //        System.out.println(elapsed);
 
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        for (int i=0;i<15;i++){
-            arrayList.add(i,i+1);
-        }
-        System.out.println(arrayList);
-        arrayList.remove(5);
-        System.out.println(arrayList);
-        arrayList.set(14,16);
-        System.out.println(arrayList);
+//        ArrayList<Integer> arrayList = new ArrayList<>();
+//        for (int i=0;i<15;i++){
+//            arrayList.add(i,i+1);
+//        }
+//        System.out.println(arrayList);
+//        arrayList.remove(5);
+//        System.out.println(arrayList);
+//        arrayList.set(14,16);
+//        System.out.println(arrayList);
 
 
     }
